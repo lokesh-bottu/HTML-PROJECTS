@@ -29,14 +29,17 @@
     
 }
 .form_and_text{
-    width:1440px;
     display:flex;
     flex-direction: row;
 }
 .givehope{
-    margin-left: 1000px;
+    margin-left: 100px;
     width: 384px;
     height:362px;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
 .form{
