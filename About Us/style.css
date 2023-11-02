@@ -1,0 +1,591 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.nav{
+    height: 128px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    flex-wrap: wrap;
+}
+.column1{
+    display: flex;
+    flex-direction: row;
+}
+.headername{
+    margin-top: 34px;
+    margin-left: 160px;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.how_we{
+    padding-top: 59px;
+    margin-left: 224px;
+}
+
+
+.get_involved{
+    padding-top: 59px;
+    margin-left: 101px;
+}
+
+.news{
+    padding-top: 59px;
+    margin-left: 104px;
+}
+
+
+/* division for button */
+.donatebutton{
+    margin-top: 45px;
+    margin-left: 108px;
+    padding-top: 13px;
+    text-align: center;
+    width:140px ;
+    height: 40px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+}
+
+.buttondonate{
+    background-color: transparent;
+    border:none;
+    font: normal normal bold 18px/22px Helvetica;
+}
+
+.inside_text {
+    background-color: white;
+    padding-top: 65px;
+    padding-left: 64px;
+    width: 544px;
+    height: 300px;
+    position: absolute; 
+    top: 128px; 
+    left: 736px; 
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    z-index: 1;
+}
+.legend{
+    text-align: center;
+    position: absolute;
+    padding-top: 10px;
+    left:802px;
+    top:119px;
+    background: #354463 0% 0% no-repeat padding-box;
+    color:white;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    z-index: 2;
+
+}
+
+
+.picture {
+    width: 1440px;
+    height: 400px;
+    background-image: url("image1.png");
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+}
+.stop_climate_change{
+    position: absolute;
+    top:0;
+    margin-top: 120px;
+    margin-left: 160px;
+    font: normal normal normal 72px/76px Flood Std;
+    color: white;
+}
+
+.options{
+    display: flex;
+    width:1440px ;
+    height:1056px ;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+
+.what_we_do{
+    margin-top: 139px;
+    margin-left: 160px;
+    height: 40px;
+    width:160px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+.we_strive{
+    margin-top: 32px;
+    margin-left: 160px;
+    width: 1122px;
+    height: 165px;
+    font: normal normal bold 44px/56px Helvetica;
+    color: white;
+}
+
+.icons_main{
+    width: 1144px;
+    height: 458px;
+    margin-top: 128px;
+    margin-left: 160px;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+
+
+
+.row1_icons{
+    margin-top: 84px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.row2_icons{
+    margin-top: 134px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icon_headings{
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+.icon_text{
+    margin-top: 11px;
+    font: normal normal 300 16px/24px Helvetica;
+    color:white;
+}
+
+
+.icon{
+    margin-left: 45px;
+}
+
+
+
+.people_main{
+    display: flex;
+    width:1440px ;
+    height: 1264px;
+
+}
+
+.our_team{
+    margin-top:139px;
+    margin-left: 162PX;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    background: #354463 0% 0% no-repeat padding-box;
+    color:white;
+    text-align: center;
+    padding-top:11px;
+}
+
+
+.meet_text{
+    display: flex;
+    flex-direction: row;
+
+}
+.text1{
+    margin-left:160px;
+    margin-top: 32px;
+    width: 480px;
+    height: 109px;
+    font: normal normal bold 44px/56px Helvetica;
+}
+
+
+.text2{
+    margin-left:96px;
+    margin-top: 51px;
+    font: normal normal 300 20px/30px Helvetica;
+}
+
+
+.people_photos{
+    position: relative;
+    margin-left: 160px;
+    margin-top: 91px;
+    width: 1086px;
+    height: 864px;
+}
+.persons{
+    width: 320px;
+    height:320px;
+}
+.person_row1{
+    display: flex;
+    flex-direction: row;
+}
+.person_row2{
+    display: flex;
+    flex-direction: row;
+}
+#person1{
+    background-image: url("p1.png");
+}
+#person2{
+    margin-left: 64px;
+    background-image: url("p2.png");
+}
+#person3{
+     margin-left: 64px; 
+     background-image: url("p3.png");
+} 
+#person4{
+    margin-top: 96px;
+    background-image: url("p4.png");
+}
+
+#person5{
+    margin-top:96px;
+    margin-left: 64px;
+    background-image: url("p7.png");
+}
+#person6{
+    margin-top: 96px;
+    margin-left: 64px; 
+    background-image: url("p6.png");
+} 
+
+
+.people_names{
+    height: 48px;
+    width: 320px;
+    background: #354463 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 11px;
+}
+.row1_labels{
+    position:absolute;
+    top:0px;
+    margin-top: 296px;
+    display: flex;
+    flex-direction: row;
+}
+#label1{
+    margin-left: 20px;
+    
+}
+#label4{
+    margin-left: 20px;
+}
+
+#label2{
+    margin-left: 64px;
+}
+#label3{
+    margin-left: 64px;
+}
+#label5{
+    margin-left: 64px;
+}
+#label6{
+    margin-left: 64px;
+}
+
+.row2_labels{
+    position:absolute;
+    top: 709px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.money_impact{
+    position: relative;
+    width: 1440px;
+    height: 670px;
+    background: transparent url('image2.png') 0% 0% no-repeat padding-box;
+    background-color: #354463;
+}
+
+
+
+
+.ourimpact{
+    position: absolute;
+    top:0px;
+    margin-top: 139px;
+    margin-left: 640px;
+    width: 160px;
+    height: 40px;
+    font: normal normal normal 14px/17px Helvetica;
+    background-color: white;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+
+.we_invest{
+    position: absolute;
+    top:0px;
+    height: 109px;
+    width: 742px;
+    font: normal normal bold 44px/56px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 210px;
+    margin-left: 349px;
+    color: white;
+
+}
+.amounts{
+    position:absolute;
+    top:400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 144px;
+    
+}
+.num{
+    width: 256px;
+    height: 144px;
+}
+.numbers{
+    text-align: center;
+    width: 256px;
+    height:55px;
+    font: normal normal normal 72px/76px Flood Std;
+    color:white;
+}
+
+.features{
+    text-align: center;
+    margin-top: 16px;
+    font: normal normal bold 28px/36px Helvetica;
+    color:white;
+    width: 244px;
+    height: 73;
+}
+
+#pachis,#ded,#sou{
+    margin-left: 15px;
+
+}
+
+.takelook{
+    width: 1440px;
+    position: relative;
+    height: 1450px;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+
+.look_text{
+    position: absolute;
+    top:0px;
+    margin-top: 100px;
+    margin-left: 160px;
+    width: 964;
+    height:160px;
+    font: normal normal normal 72px/76px Flood Std;
+    color: #FFFFFF;
+}
+.photos2{
+    position: absolute;
+    top:260px;
+    margin-top: 100px;
+    margin-left:127px;
+    height: 785px;
+    width: 1121px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.photo2016{
+    width: 545px;
+    height: 785px;
+    background-color: white;
+
+}
+
+.photo2018{
+    width: 545px;
+    height: 785px;
+    margin-left: 32px;
+    background-color:white;
+
+}
+
+.auntysad{
+    height: 394px;
+    width: 545px;
+    background: url("p8.png");
+}
+
+.bold_text{
+    width: 448px;
+    height: 73px;
+    margin-top: 67px;
+    margin-left: 64px;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.normal_text{
+    margin-top: 24px;
+    margin-left: 64px;
+    color:black;
+}
+
+
+.read_more{
+    margin-top: 37px;
+    margin-left: 64px;
+    padding-top: 11px;
+    text-align: center;
+    width:140px ;
+    height: 40px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.button_readmore{
+    background-color: transparent;
+    border:none;
+    font: normal normal bold 18px/22px Helvetica;
+}
+
+
+.subscribe{
+    position:absolute;  
+    top:1250px;
+    /* margin-top: 128px; */
+    width: 1440px;
+    height: 208px;
+    background-color: #C1F7D5;
+
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.email_add{
+    text-align: center;
+    width:140px ;
+    height: 40px;
+    background: white;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin-left: 32px;
+    margin-top: 80px;
+}
+
+
+
+#search_readmore{
+    margin-left: 32px;
+    margin-top:80px;
+    background-color: #354463;
+    color:#C1F7D5;
+}
+
+.subscribe_text{
+    margin-top: 69px;
+    margin-left: 160px;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.footer_div{
+    position:absolute;
+    top:1482px;
+    padding-top: 60px;
+    height:150px;
+    width:1440px;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    }
+.downheading{
+    margin-left: 160px;
+    text-align: left;
+    padding-top: 40px;
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.contactus{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.links{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.followus{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.insidecontact{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+
+}
+.insidelinks{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+}
+.insidefollow{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+}
+.stopclimate{
+    margin-left: 96px;
+    font: normal normal normal 30px/32px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+
+
+@media (max-width:376px) {
+    .column1{
+        flex-direction: column;
+        
+    }
+
+    
+}

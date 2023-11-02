@@ -10,10 +10,9 @@
   padding: 10px 10px;
 }
 .heading-container{
+  
     width: 45%;
-    /* border: 2px solid black; */
     display: flex;
-    
 }
 .para-container{
     width: 45%;
@@ -40,7 +39,10 @@ li{
     flex-wrap: wrap;
 }
 
-
+.list-menu a,.btn a {
+  text-decoration: none; 
+  color: inherit; 
+}
 
 .home{
   width: 100%;
