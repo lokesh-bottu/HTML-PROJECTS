@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .container{
   display: flex;
   flex-direction: row;
@@ -9,8 +10,8 @@
   width: 100%;
   padding: 10px 10px;
 }
+
 .heading-container{
-  
     width: 45%;
     display: flex;
 }
@@ -20,6 +21,28 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.donate_button{
+    text-align: center;
+    width:140px ;
+    height: 40px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+}
+
+
+.btn_2{
+  border-radius: 2rem;
+  padding: 0.8rem 3rem;
+  background-color: #C1F7D5;
+  text-align: center;
+  border: none;
+}
+
+.subscribe_text{
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
 
 li{
     list-style: none;
@@ -28,10 +51,13 @@ li{
 
 .btn{
     padding: 1px 9px;
-    height: 40px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    background:transparent;
+    border: none;
+    font: normal normal bold 18px/22px Helvetica;
 }
+
 
 .list-menu{
     display: flex;
@@ -39,7 +65,7 @@ li{
     flex-wrap: wrap;
 }
 
-.list-menu a,.btn a {
+.list-menu a,.btn a,.btn2 a {
   text-decoration: none; 
   color: inherit; 
 }
@@ -47,7 +73,6 @@ li{
 .home{
   width: 100%;
   background-image: url("home.png");
-  /* height: 400px; */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px 10px;
@@ -56,6 +81,8 @@ li{
   flex-wrap: wrap-reverse;
   padding-bottom: 100px;
 }
+
+
 
 .climate1{
   background-color: white;
@@ -150,7 +177,7 @@ li{
 .px-1{
   padding: 0 10px;
 }
-.px-2{
+.px-2{  
   padding-right:  30px;
   padding-left: 30px;
 }
@@ -216,7 +243,12 @@ li{
 .mt-1{
   margin-top: 40px;
 }
-
+.contactus{
+  margin-left: 50px;
+}
+.followus{
+  margin-left:0px;
+}
 .pb-4{
   padding-bottom: 40px;
 }
@@ -229,13 +261,90 @@ li{
 
 
 
+.talk {
+  height: 230vh;
+  text-align: center;
+  background-color: #354463;
+  color: white;
+}
+
+#talk-head {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 7vh;
+  justify-content: center;
+
+}
+
+.talk div {
+  text-align: center;
+  font-size: 4vh;
+  color: white;
+  padding: 5%;
+}
+
+.talk div p {
+  color: #FFFFFF;
+  font-size: 2.5vh;
+  padding: 5% 0 0 0;
+}
+
+.subscribe_div {
+  height: 25vh;
+  text-align: center;
+  background-color:aqua;
+  color: white;
+  align-items: center;
+}
+
+.footer_div{
+  padding-left: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 600px;
+}
+.downheading{
+  padding-top: 0px;
+  margin-top: 0px;
+  font: normal normal bold 18px/22px Helvetica;
+  margin-left: 32px;
+}
+.row1,.row2{
+  display:flex;
+  flex-direction: row;
+}
+.row1{
+  margin-top: 67px;
+}
+.row2{
+  margin-top:50px;
+}
+.links{
+  width:77px;
+  margin-left: 32px;
+  height: 100px;
+}
+.followus{
+  margin-left: 142px;
+}
+.stopclimate{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.header{
+  width: 100%;
+  text-align: center;
+}
+
+
 @media screen and (min-width: 800px) {
   .list-menu{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
   }
-
   .climate1{
       background-color: white;
       padding: 20px 20px;
@@ -276,5 +385,139 @@ li{
   .md-w-50{
       width: 50%;
   }
+  
+  #talk-head {
+    text-align: left;
 }
 
+.talk-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.talk2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.talk3 {
+    grid-column: 2/3;
+}
+
+.talk {
+    height: 250vh;
+}
+
+.subscribe{
+  position:absolute;  
+  top:1250px;
+  width: 1440px;
+  height: 208px;
+  background-color: #C1F7D5;
+
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email_add{
+  padding-top: 10px;
+  color: black;
+  text-align: center;
+  width:180px ;
+  height: 40px;
+  background: white;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin-left: 32px;
+  margin-top: 50px;
+}
+
+.subscribe_text{
+  margin-top: 69px;
+  margin-left: 160px;
+  font: normal normal bold 28px/36px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+}
+.subs_but{
+  margin-top: 76px;
+  margin-left: 20px;
+}
+
+.footer_div{
+  margin-top: 80px;
+  height:150px;
+  width:1440px;
+  display: flex;
+  flex-direction: row;
+  }
+.downheading{
+  margin-left: 160px;
+  text-align: left;
+  padding-top: 40px;
+  text-align: left;
+  font: normal normal bold 22px/28px Helvetica;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+.contactus{
+  margin-left: 200px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.links{
+  margin-left: 96px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.followus{
+  margin-left: 96px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+  opacity: 1;
+}
+.insidecontact{
+  padding-top: 10px;
+  border-top:2px solid #C1F7D5;
+
+}
+.insidelinks{
+  padding-top: 10px;
+  border-top:2px solid #C1F7D5;
+}
+.insidefollow{
+  padding-top: 10px;
+  border-top:2px solid #C1F7D5;
+}
+.stopclimate{
+  margin-left: 96px;
+  font: normal normal normal 30px/32px Flood Std;
+  letter-spacing: 0px;
+  color: #354463;
+  opacity: 1;
+}
+
+
+.row1,.row2{
+  display:flex;
+  flex-direction: row;
+}
+.bar{
+  align-items: center;
+  justify-content:space-evenly;
+  /* flex-wrap: wrap; */
+}
+
+}
